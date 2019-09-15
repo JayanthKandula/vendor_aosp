@@ -35,6 +35,7 @@ $(call inherit-product, vendor/aosp/config/common/apps.mk)
 $(call inherit-product, vendor/aosp/config/common/configs.mk)
 
 # Fonts
+include vendor/aosp/config/fonts.mk
 $(call inherit-product, vendor/aosp/config/common/fonts.mk)
 
 # GMS
